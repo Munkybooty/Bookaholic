@@ -1,56 +1,58 @@
 //
-//  ContentView.swift
-//  Shared
+//  TabNavBarView.swift
+//  Bookaholic
 //
-//  Created by Munkybooty on 12/30/21.
+//  Created by Munkybooty on 1/1/22.
 //
 
 import SwiftUI
-import CoreData
 
-struct ContentView: View {
+struct TabNavBarView: View {
     var body: some View {
         // Bottom Navigation Tab
         TabView {
             // Home Page Contents
-            HomeView()
+            Text("Home")
             // End Home Page Contents
                 .tabItem {
-                    Label("Home", systemImage: "house")
+                    Image(systemName: "house")
+                    Text("Home")
                 }
             // Bookshelf Contents
             BookshelfView()
             // End Bookshelf Contents
                 .tabItem {
-                    Label("Bookshelf", systemImage: "books.vertical")
+                    Image(systemName: "books.vertical")
+                    Text("Bookshelf")
                 }
             // Search Contents
-            SearchView()
+            Text("Search")
             // End Search Contents
                 .tabItem {
-                    Label("Search", systemImage: "magnifyingglass")
+                    Image(systemName: "magnifyingglass")
+                    Text("Search")
                 }
             // Stats Contents
-            StatsView()
+            Text("Stats")
             // End Stats Contents
                 .tabItem {
-                    Label("Stats", systemImage: "chart.line.uptrend.xyaxis")
+                    Image(systemName: "chart.line.uptrend.xyaxis")
+                    Text("Stats")
                 }
             // More Contents
-            MoreView()
+            Text("More")
             // End More Contents
                 .tabItem {
-                    Label("More", systemImage: "line.3.horizontal")
+                    Image(systemName: "line.3.horizontal")
+                    Text("More")
                 }
         }
         .font(.headline)
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct TabNavBarView_Previews: PreviewProvider {
     static var previews: some View {
-        Group {
-            ContentView()
-        }
+        TabNavBarView()
     }
 }
