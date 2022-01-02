@@ -10,32 +10,32 @@ import SwiftUI
 struct BookshelfView: View {
     var body: some View {
         VStack{
+            Spacer()
             HStack{
-                Text("Book 11")
-                Text("Book 12")
-                Text("Book 13")
-                Text("Book 14")
-            }.padding()
+                Text("Book 11").padding()
+                Text("Book 12").padding()
+                Text("Book 13").padding()
+            }
+            HStack(){
+                Image(decorative: "WoodShelf", bundle: nil)
+            }
+            Spacer()
             HStack{
-                Text("Shelf")
-            }.padding()
+                Text("Book 21").padding()
+                Text("Book 22").padding()
+                Text("Book 23").padding()
+            }
             HStack{
-                Text("Book 21")
-                Text("Book 22")
-                Text("Book 23")
-                Text("Book 24")
-            }.padding()
+                Image(decorative: "WoodShelf", bundle: nil)
+            }
+            Spacer()
             HStack{
-                Text("Shelf")
-            }.padding()
+                Text("Book 31").padding()
+                Text("Book 32").padding()
+                Text("Book 33").padding()
+            }
             HStack{
-                Text("Book 31")
-                Text("Book 32")
-                Text("Book 33")
-                Text("Book 34")
-            }.padding()
-            HStack{
-                Text("Shelf")
+                Image(decorative: "WoodShelf", bundle: nil)
             }
         }
     }
