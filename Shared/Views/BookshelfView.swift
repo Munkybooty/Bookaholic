@@ -12,30 +12,108 @@ struct BookshelfView: View {
         VStack{
             Spacer()
             HStack{
-                Text("Book 11").padding()
-                Text("Book 12").padding()
-                Text("Book 13").padding()
+                Spacer()
+                VStack{
+                    Image("1984")
+                        .resizable()
+                        .aspectRatio(contentMode: .fill)
+                        .frame(width: 90, height: 120, alignment: .topLeading)
+                        .clipped()
+                    Text("1984")
+                }
+                Spacer()
+                VStack{
+                    Image("1984")
+                        .resizable()
+                        .aspectRatio(contentMode: .fill)
+                        .frame(width: 90, height: 120, alignment: .topLeading)
+                        .clipped()
+                    Text("1984")
+                }
+                Spacer()
+                VStack{
+                    Image("1984")
+                        .resizable()
+                        .aspectRatio(contentMode: .fill)
+                        .frame(width: 90, height: 120, alignment: .topLeading)
+                        .clipped()
+                    Text("1984")
+                }
+                Spacer()
             }
-            HStack(){
+            ZStack{
                 Image(decorative: "WoodShelf", bundle: nil)
+                Text("In Progress")
             }
             Spacer()
             HStack{
-                Text("Book 21").padding()
-                Text("Book 22").padding()
-                Text("Book 23").padding()
+                Spacer()
+                VStack{
+                    Image("1984")
+                        .resizable()
+                        .aspectRatio(contentMode: .fill)
+                        .frame(width: 90, height: 120, alignment: .topLeading)
+                        .clipped()
+                    Text("1984")
+                }
+                Spacer()
+                VStack{
+                    Image("1984")
+                        .resizable()
+                        .aspectRatio(contentMode: .fill)
+                        .frame(width: 90, height: 120, alignment: .topLeading)
+                        .clipped()
+                    Text("1984")
+                }
+                Spacer()
+                VStack{
+                    Image("1984")
+                        .resizable()
+                        .aspectRatio(contentMode: .fill)
+                        .frame(width: 90, height: 120, alignment: .topLeading)
+                        .clipped()
+                    Text("1984")
+                }
+                Spacer()
             }
-            HStack{
+            ZStack{
                 Image(decorative: "WoodShelf", bundle: nil)
+                Text("Want to Read")
             }
             Spacer()
             HStack{
-                Text("Book 31").padding()
-                Text("Book 32").padding()
-                Text("Book 33").padding()
+                Spacer()
+                VStack{
+                    Image("1984")
+                        .resizable()
+                        .aspectRatio(contentMode: .fill)
+                        .frame(width: 90, height: 120, alignment: .topLeading)
+                        .clipped()
+                    Text("1984")
+                }
+                Spacer()
+                VStack{
+                    Image("1984")
+                        .resizable()
+                        .aspectRatio(contentMode: .fill)
+                        .frame(width: 90, height: 120, alignment: .topLeading)
+                        .clipped()
+                    Text("1984")
+                }
+                Spacer()
+                VStack{
+                    Image("1984")
+                        .resizable()
+                        .aspectRatio(contentMode: .fill)
+                        .frame(width: 90, height: 120, alignment: .topLeading)
+                        .clipped()
+                    Text("1984")
+                }
+                Spacer()
             }
-            HStack{
+            ZStack{
                 Image(decorative: "WoodShelf", bundle: nil)
+                Text("Completed")
             }
         }
     }
