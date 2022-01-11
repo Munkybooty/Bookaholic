@@ -87,10 +87,10 @@
 		DF94799D277D9ABB00B28DCF /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				DFEC5E94278E44A900CA5EED /* Frontend */,
+				DFEC5E93278E448D00CA5EED /* Backend */,
 				DF9479A0277D9ABB00B28DCF /* BookaholicApp.swift */,
-				DF9479A1277D9ABB00B28DCF /* ContentView.swift */,
 				DF9479A2277D9ABB00B28DCF /* Persistence.swift */,
-				DF69C3D0278107970088EA97 /* Views */,
 				DF9479A3277D9ABC00B28DCF /* Assets.xcassets */,
 				DF94799E277D9ABB00B28DCF /* Bookaholic.xcdatamodeld */,
 			);
@@ -112,6 +112,38 @@
 				DF9479B0277D9ABC00B28DCF /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		DFEC5E93278E448D00CA5EED /* Backend */ = {
+			isa = PBXGroup;
+			children = (
+				DFEC5E96278E45A900CA5EED /* Controllers */,
+				DFEC5E95278E45A100CA5EED /* Models */,
+			);
+			path = Backend;
+			sourceTree = "<group>";
+		};
+		DFEC5E94278E44A900CA5EED /* Frontend */ = {
+			isa = PBXGroup;
+			children = (
+				DF9479A1277D9ABB00B28DCF /* ContentView.swift */,
+				DF69C3D0278107970088EA97 /* Views */,
+			);
+			path = Frontend;
+			sourceTree = "<group>";
+		};
+		DFEC5E95278E45A100CA5EED /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DFEC5E96278E45A900CA5EED /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
