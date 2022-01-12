@@ -117,8 +117,7 @@
 		DFEC5E93278E448D00CA5EED /* Backend */ = {
 			isa = PBXGroup;
 			children = (
-				DFEC5E96278E45A900CA5EED /* Controllers */,
-				DFEC5E95278E45A100CA5EED /* Models */,
+				DFEC5EA5278E70B400CA5EED /* Models */,
 			);
 			path = Backend;
 			sourceTree = "<group>";
@@ -132,18 +131,11 @@
 			path = Frontend;
 			sourceTree = "<group>";
 		};
-		DFEC5E95278E45A100CA5EED /* Models */ = {
+		DFEC5EA5278E70B400CA5EED /* Models */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Models;
-			sourceTree = "<group>";
-		};
-		DFEC5E96278E45A900CA5EED /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
