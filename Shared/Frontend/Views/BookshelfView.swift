@@ -14,30 +14,30 @@ struct BookshelfView: View {
             HStack{
                 Spacer()
                 VStack{
-                    Image("1984")
+                    Image("Ender's Game")
                         .resizable()
                         .aspectRatio(contentMode: .fill)
                         .frame(width: 90, height: 120, alignment: .topLeading)
                         .clipped()
-                    Text("1984")
+                    Text("Ender's Game")
                 }
                 Spacer()
                 VStack{
-                    Image("1984")
+                    Image("Ender's Game")
                         .resizable()
                         .aspectRatio(contentMode: .fill)
                         .frame(width: 90, height: 120, alignment: .topLeading)
                         .clipped()
-                    Text("1984")
+                    Text("Ender's Game")
                 }
                 Spacer()
                 VStack{
-                    Image("1984")
+                    Image("Ender's Game")
                         .resizable()
                         .aspectRatio(contentMode: .fill)
                         .frame(width: 90, height: 120, alignment: .topLeading)
                         .clipped()
-                    Text("1984")
+                    Text("Ender's Game")
                 }
                 Spacer()
             }
@@ -49,30 +49,30 @@ struct BookshelfView: View {
             HStack{
                 Spacer()
                 VStack{
-                    Image("1984")
+                    Image("Ender's Game")
                         .resizable()
                         .aspectRatio(contentMode: .fill)
                         .frame(width: 90, height: 120, alignment: .topLeading)
                         .clipped()
-                    Text("1984")
+                    Text("Ender's Game")
                 }
                 Spacer()
                 VStack{
-                    Image("1984")
+                    Image("Ender's Game")
                         .resizable()
                         .aspectRatio(contentMode: .fill)
                         .frame(width: 90, height: 120, alignment: .topLeading)
                         .clipped()
-                    Text("1984")
+                    Text("Ender's Game")
                 }
                 Spacer()
                 VStack{
-                    Image("1984")
+                    Image("Ender's Game")
                         .resizable()
                         .aspectRatio(contentMode: .fill)
                         .frame(width: 90, height: 120, alignment: .topLeading)
                         .clipped()
-                    Text("1984")
+                    Text("Ender's Game")
                 }
                 Spacer()
             }
@@ -84,30 +84,30 @@ struct BookshelfView: View {
             HStack{
                 Spacer()
                 VStack{
-                    Image("1984")
+                    Image("Ender's Game")
                         .resizable()
                         .aspectRatio(contentMode: .fill)
                         .frame(width: 90, height: 120, alignment: .topLeading)
                         .clipped()
-                    Text("1984")
+                    Text("Ender's Game")
                 }
                 Spacer()
                 VStack{
-                    Image("1984")
+                    Image("Ender's Game")
                         .resizable()
                         .aspectRatio(contentMode: .fill)
                         .frame(width: 90, height: 120, alignment: .topLeading)
                         .clipped()
-                    Text("1984")
+                    Text("Ender's Game")
                 }
                 Spacer()
                 VStack{
-                    Image("1984")
+                    Image("Ender's Game")
                         .resizable()
                         .aspectRatio(contentMode: .fill)
                         .frame(width: 90, height: 120, alignment: .topLeading)
                         .clipped()
-                    Text("1984")
+                    Text("Ender's Game")
                 }
                 Spacer()
             }
