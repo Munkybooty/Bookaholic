@@ -42,7 +42,7 @@ struct BookshelfView: View {
                 Spacer()
             }
             ZStack{
-                Image(decorative: "WoodShelf", bundle: nil)
+                Image(decorative: "Woodshelf", bundle: nil)
                 Text("In Progress")
             }
             Spacer()
@@ -77,7 +77,7 @@ struct BookshelfView: View {
                 Spacer()
             }
             ZStack{
-                Image(decorative: "WoodShelf", bundle: nil)
+                Image(decorative: "Woodshelf", bundle: nil)
                 Text("Want to Read")
             }
             Spacer()
@@ -112,7 +112,7 @@ struct BookshelfView: View {
                 Spacer()
             }
             ZStack{
-                Image(decorative: "WoodShelf", bundle: nil)
+                Image(decorative: "Woodshelf", bundle: nil)
                 Text("Completed")
             }
         }
